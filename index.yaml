@@ -8,6 +8,6 @@ entries:
     digest: d64b5194c09de827e6eefa3e1a49f87076e514fcc8210e5cc9e62591bcddba40
     name: cloud8-common-chart
     urls:
-    - https://github.com/grantking/helm-repo.git/cloud8-common-chart-0.1.0.tgz
+    - https://raw.githubusercontent.com/grantking/helm-repo.git/cloud8-common-chart-0.1.0.tgz
     version: 0.1.0
 generated: 2018-06-14T15:12:53.419533489-07:00
