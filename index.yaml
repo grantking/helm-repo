@@ -10,4 +10,14 @@ entries:
     urls:
     - https://raw.githubusercontent.com/grantking/helm-repo/master/cloud8-common-chart-0.1.0.tgz
     version: 0.1.0
-generated: 2018-06-14T15:12:53.419533489-07:00
+  cloud8-config-service-chart:
+  - apiVersion: v1
+    appVersion: 1.0-SNAPSHOT
+    created: 2018-06-15T11:03:29.244445239-07:00
+    description: Cloud8 helm chart for configuration server
+    digest: b59d22115f728d0fd3187691444528efc75f108e0dedfcde7d97e70c33bc184b
+    name: cloud8-config-service-chart
+    urls:
+    - https://raw.githubusercontent.com/grantking/helm-repo/master/cloud8-config-service-chart-0.1.0.tgz
+    version: 0.1.0
+generated: 2018-06-15T11:03:29.240256638-07:00
