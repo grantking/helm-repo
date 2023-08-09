@@ -20,4 +20,12 @@ entries:
     urls:
     - https://raw.githubusercontent.com/grantking/helm-repo/master/cloud8-config-service-chart-0.1.0.tgz
     version: 0.1.0
-generated: 2018-06-15T11:03:29.240256638-07:00
+  petstore:
+    - apiVersion: v1
+      appVersion: latest
+      description: This is a sample springboot petstore that connects to a MySqlDb
+      name: petstore
+      urls:
+        - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.1.0.tgz
+      version: 0.1.0
+generated: 2019-06-15T11:03:29.240256638-07:00
