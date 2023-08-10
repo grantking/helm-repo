@@ -36,7 +36,7 @@ entries:
       urls:
         - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.2.0.tgz
       version: 0.2.0
-  configservice:
+  configservice_old:
     - apiVersion: v1
       appVersion: latest
       description: This is a sample springboot configservice
@@ -44,4 +44,12 @@ entries:
       urls:
         - https://raw.githubusercontent.com/grantking/helm-repo/master/configservice-0.1.0.tgz
       version: 0.1.0
+  configservice:
+    - apiVersion: v1
+      appVersion: latest
+      description: This is a sample springboot configservice
+      name: petstore
+      urls:
+        - https://raw.githubusercontent.com/grantking/helm-repo/master/configservice-0.2.0.tgz
+      version: 0.2.0
 generated: 2020-06-15T11:03:29.240256638-07:00
