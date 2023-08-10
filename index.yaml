@@ -36,4 +36,4 @@ entries:
       urls:
         - https://raw.githubusercontent.com/grantking/helm-repo/master/configservice-0.1.0.tgz
       version: 0.1.0
-generated: 2019-06-15T11:03:29.240256638-07:00
+generated: 2020-06-15T11:03:29.240256638-07:00
