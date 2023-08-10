@@ -28,14 +28,6 @@ entries:
       urls:
         - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.3.0.tgz
       version: 0.3.0
-  petstore_22:
-    - apiVersion: v1
-      appVersion: 0.2.1
-      description: This is a sample springboot petstore that connects to a MySqlDb
-      name: petstore
-      urls:
-        - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.2.1.tgz
-      version: 0.2.1
   petstore:
     - apiVersion: v1
       appVersion: 0.2.2
