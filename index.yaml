@@ -22,45 +22,21 @@ entries:
     version: 0.1.0
   petstore_old:
     - apiVersion: v1
-      appVersion: 0.3.0
-      description: This is a sample springboot petstore that connects to a MySqlDb
-      name: petstore
-      urls:
-        - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.3.0.tgz
-      version: 0.3.0
-  petstore_olddd:
-    - apiVersion: v1
-      appVersion: 0.2.2
-      description: This is a sample springboot petstore that connects to a MySqlDb
-      name: petstore
-      urls:
-        - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.2.2.tgz
-      version: 0.2.2
-  petstore_kfokd:
-    - apiVersion: v1
-      appVersion: 0.2.3
-      description: This is a sample springboot petstore that connects to a MySqlDb
-      name: petstore
-      urls:
-        - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.2.3.tgz
-      version: 0.2.3
-  petstore:
-    - apiVersion: v1
       appVersion: 0.2.5
       description: This is a sample springboot petstore that connects to a MySqlDb
       name: petstore
       urls:
         - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.2.5.tgz
       version: 0.2.5
-  configservice_old:
+  petstore:
     - apiVersion: v1
-      appVersion: latest
-      description: This is a sample springboot configservice
+      appVersion: 0.2.7
+      description: This is a sample springboot petstore that connects to a MySqlDb
       name: petstore
       urls:
-        - https://raw.githubusercontent.com/grantking/helm-repo/master/configservice-0.1.0.tgz
-      version: 0.1.0
-  configservice:
+        - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.2.7.tgz
+      version: 0.2.7
+  configservice_old:
     - apiVersion: v1
       appVersion: latest
       description: This is a sample springboot configservice
@@ -68,4 +44,13 @@ entries:
       urls:
         - https://raw.githubusercontent.com/grantking/helm-repo/master/configservice-0.2.0.tgz
       version: 0.2.0
+  configservice:
+    - apiVersion: v1
+      appVersion: 0.3.0
+      description: This is a sample springboot configservice
+      name: petstore
+      urls:
+        - https://raw.githubusercontent.com/grantking/helm-repo/master/configservice-0.3.0.tgz
+      version: 0.3.0
+
 generated: 2020-06-15T11:03:29.240256638-07:00
