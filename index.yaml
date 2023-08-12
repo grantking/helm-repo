@@ -30,12 +30,12 @@ entries:
       version: 0.2.5
   petstore:
     - apiVersion: v1
-      appVersion: 0.2.8
+      appVersion: 0.2.9
       description: This is a sample springboot petstore that connects to a MySqlDb
       name: petstore
       urls:
-        - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.2.8.tgz
-      version: 0.2.8
+        - https://raw.githubusercontent.com/grantking/helm-repo/master/petstore-0.2.9.tgz
+      version: 0.2.9
   configservice_old:
     - apiVersion: v1
       appVersion: latest
